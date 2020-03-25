@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="2020한혜수 포트폴리오 웹사이트">
+    <meta property="og:description" content="2020한혜수 포트폴리오 웹사이트 입니다.">
+    <meta property="og:url" content="https://kurihan.github.io/2020kurihan/">
+    <meta property="og:image" content="img/thumnail.png">
+    <title>한혜수 포트폴리오 웹사이트</title>
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    <script>
+        var htmlTop = 0;
+        $(window).on('scroll', function() {
+            htmlTop = $('html').scrollTop();
+            console.log(htmlTop);
+        });
+
+
+        $(document).ready(function() {
+            $('.home').bind('click', function() {
+                $('html, body').animate({
+                    scrollTop: '0'
+                }, 680);
+            });
+            $('.about_me').bind('click', function() {
+                $('html, body').animate({
+                    scrollTop: '450'
+                }, 680);
+            });
+            $('.web_publishing').bind('click', function() {
+                $('html, body').animate({
+                    scrollTop: '1044'
+                }, 680);
+            });
+            $('.web_design').bind('click ', function() {
+                $('html, body').animate({
+                    scrollTop: '1700'
+                }, 680);
+            });
+        });
+
+    </script>
+    <script>
+        var htmlTop = 0;
+        $(window).on('scroll', function() {
+            htmlTop = $('html').scrollTop();
+            console.log(htmlTop);
+        });
+
+
+        $(document).ready(function() {
+            
+            $('.mabout').bind('click', function() {
+                $('html, body').animate({
+                    scrollTop: '260'
+                }, 680);
+            });
+            $('.mpuble').bind('click', function() {
+                $('html, body').animate({
+                    scrollTop: '834'
+                }, 680);
+            });
+            $('.mdesign').bind('click ', function() {
+                $('html, body').animate({
+                    scrollTop: '1434'
+                }, 680);
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            $('.right_menu').on('click', function() {
+                $('.m_menu_wrap').css('display', 'block');
+            });
+            $('.m_menu_cbtn').on('click', function() {
+                $('.m_menu_wrap').css('display', 'none');
+            });
+            $('.m_menu_wrap').mouseleave(function(){
+                $('.m_menu_wrap').css('display', 'none');
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            $('.sin1').slick();
+        });
+
+    </script>
+</head>
+
+<body>
+    <!--헤더-->
+    <div class="hdr_wrap scroll_bg">
+        <header class="inner">
+            <div class="left_menu">
+                <ul>
+                    <li class="li_txt home scroll_txt"><a href="index.html">HOME</a></li>
+                    <li class="li_txt about_me scroll_txt">ABOUT ME</li>
+                    <li class="li_txt web_publishing scroll_txt">WEB PUBLISHING</li>
+                    <li class="li_txt web_design scroll_txt">WEB DESIGN</li>
+                </ul>
+            </div>
+            <div class="right_menu"><img src="img/main/menu_btn_45x29.png" alt=""></div>
+            <div class="m_menu_wrap">
+                <div class="m_menu_cbtn">x</div>
+                <div class="m_menu">
+                    <div class="mhome"><a href="index.html">HOME</a></div>
+                    <div class="mabout">ABOUT ME</div>
+                    <div class="mpuble">WEB PUBLISHING</div>
+                    <div class="mdesign">WEB DESIGN</div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--배너-->
+    <div class="visual_wrap">
+        <div class="visual">
+            <div class="visual_txt">
+                <h1 class="wow fadeIn" data-wow-duration="0.5s">&#91; WELCOME &#93;</h1>
+                <p class="wow fadeIn" data-wow-duration="0.5s">안녕하세요 한헤수의 포트폴리오 웹사이트 입니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--컨텐츠 영역-->
+    <div class="con_wrap">
+        <div class="con1_wrap">
+            <div class="inner">
+                <div class="con1">
+                    <div class="left_con wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="con_title">
+                            <p>2020 portfolio website</p>
+                            <h2><span>ABOUT</span> ME</h2>
+                        </div>
+                        <div class="con_title_txt">
+                            <ul class="con1_txt c1t1">
+                                <li>· 한혜수 / 92.11.12</li>
+                                <li>· 010.3913.9085</li>
+                                <li>· vlwk888@naver.com</li>
+                                <li>· 서울 구로구</li>
+                                <li>· 경기과학기술대학교 아동영어보육과</li>
+                                <li>· 웃음을 좋아하는, 예의를 중시하는</li>
+                                <li>· 고양이를 좋아하는, 게임을 좋아하는</li>
+                            </ul>
+                            <ul class="con1_txt c1t2">
+                                <li>· 2019.03 - 2020.02 골뱅이스토어&스마트플렉스 근무</li>
+                                <li>· 웹사이트 스킨 제작</li>
+                                <li>- 포토샵&amp;일러스트 사용하여 웹 사이트 디자인</li>
+                                <li>- 그누보드 기반, 스크립트 플러그인을 활용한 반응형 웹사이트 퍼블리싱</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right_con wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="img/con1/con1_img1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="con2_wrap">
+            <div class="inner">
+                <div class="con2">
+                    <div class="left_con wow fadeInLeft">
+                        <div class="con_title">
+                            <h2>WEB <br><span>PUBLISHING</span></h2>
+                        </div>
+                        <div class="con_title_txt">
+                            <p>그누보드를 기반으로 한 기업형 <br>반응형 웹사이트 스킨 제작물 입니다.</p>
+                        </div>
+                    </div>
+                    <div class="right_con wow fadeInRight">
+                        <div class="center">
+                            <a class="con2_img1" href="http://atstore.co.kr/at01/" target="_blank"><span>SKIN <br>01</span></a>
+                            <a class="con2_img2" href="http://atstore.co.kr/at02/" target="_blank"><span>SKIN <br>02</span></a>
+                            <a class="con2_img3" href="http://atstore.co.kr/at03/" target="_blank"><span>SKIN <br>03</span></a>
+                            <a class="con2_img4" href="http://atstore.co.kr/at06/" target="_blank"><span>SKIN <br>04</span></a>
+                            <a class="con2_img5" href="http://atstore.co.kr/at10/" target="_blank"><span>SKIN <br>05</span></a>
+                            <a class="con2_img6" href="http://atstore.co.kr/at01_f/" target="_blank"><span>SKIN <br>06</span></a>
+                            <a class="con2_img7" href="http://atstore.co.kr/at11/" target="_blank"><span>SKIN <br>07</span></a>
+                            <a class="con2_img8" href="http://atstore.co.kr/at03_c/" target="_blank"><span>SKIN <br>08</span></a>
+                            <a class="con2_img9" href="http://atstore.co.kr/at01_c/" target="_blank"><span>SKIN <br>09</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="con3_wrap">
+            <div class="inner">
+                <div class="con3">
+                    <div class="con_title">
+                        <p>grahpic design</p>
+                        <h2><span>WEB DESIGN</span></h2>
+                    </div>
+                    <div class="con3_imgs_wrap">
+                        <div class="con3_imgs c31">
+                            <div class="left_con wow fadeInLeft">
+                                <div class="left_img"><a href="sub_hublink.html"><img src="img/con3/con2_img1.png" alt=""></a></div>
+                                <div class="left_txt">
+                                    <h4>웹 사이트 디자인</h4>
+                                    <p>
+                                        · ㈜허브링크 <br>· 구내통신서비스 전문 기업 <br>· 총 12 페이지 <br>· 프로젝트 완성 기간 약 3주
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right_con wow fadeInRight">
+                                <div class="right_img"><a href="sub_maeulin.html"><img src="img/con3/con2_img2.png" alt=""></a></div>
+                                <div class="right_txt">
+                                    <h4>웹 사이트 디자인</h4>
+                                    <p>
+                                        · 마을인교육 <br>· 금천구 마을 공동체 교육 안내 사이트 <br>· 총 11 페이지 <br>· 프로젝트 완성 기간 약 3주
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con3_imgs c32">
+                            <!--<div class="c32_bg"><img src="img/con3/con3_2bg.png" alt=""></div>-->
+                            <div class="left_con wow fadeInLeft">
+                                <div class="left_img"><a href="sub_radio.html"><img src="img/con3/con2_img3.png" alt=""></a></div>
+                                <div class="left_txt">
+                                    <h4>웹 사이트 배너 디자인</h4>
+                                    <p>
+                                        · 금천라디오 <br>· 금천구 라디오 방송 안내 웹사이트 <br>· 각 서브페이지에 들어가는 배너 총 5개 <br>· 프로젝트 완성 기간 약 10일
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right_con wow fadeInRight">
+                                <div class="right_img"><a href="sub_bay.html"><img src="img/con3/con2_img4.png" alt=""></a></div>
+                                <div class="right_txt">
+                                    <h4>웹 사이트 로고&amp;배너 디자인</h4>
+                                    <p>
+                                        · 마케팅배이 <br>· 비교/분석, 광고대행 웹사이트 <br>· 로고샘플 6개, 메인페이지 배너 5개 <br>· 프로젝트 완성 기간 약 2주
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con3_imgs c33">
+                            <div class="left_con wow fadeInLeft">
+                                <div class="left_img"><a href="sub_smartflex.html"><img src="img/con3/con2_img5.png" alt=""></a></div>
+                                <div class="left_txt">
+                                    <h4>채용공고 디자인</h4>
+                                    <p>
+                                        · 스마트플렉스 <br>· 구인/구직 사이트에 첨부할 구인공고 디자인 <br>· 프로젝트 완성 기간 약 1주
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right_con wow fadeInRight">
+                                <div class="right_img"><a href="sub_kh.html"><img src="img/con3/con2_img6.png" alt=""></a></div>
+                                <div class="right_txt">
+                                    <h4>소프트웨어 패키지 디자인</h4>
+                                    <p>
+                                        · 경희대 영양연구소 <br>· 프로그램 개발 후 의뢰한 프로그램 패키지 디자인 <br>· 프로젝트 완성 기간 약 3일
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--푸터-->
+    <div class="ftr_wrap">
+        <footer>
+            <h3>ⓒ 2020.Han_hyesoo.All rights reserved.</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
